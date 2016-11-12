@@ -1,7 +1,45 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+  max-height: 500px;
+}
+
+.banner-content {
+  padding: 1rem 1rem;
+  max-width: 50em;
+  position: absolute;
+  z-index: 1000;
+  bottom: 0;
+  left: 0;
+  /*transform: translateX(-50%);*/
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 5.5rem;
+}
+
+span {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.card-body {
+  font-style: italic;
+  font-size: 2rem;
 }
